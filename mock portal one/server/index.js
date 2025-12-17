@@ -17,7 +17,7 @@ const pool = new Pool({
 });
 
 const PREDEFINED_STUDENTS = [
-  { email: 'student1@example.com', password: 'student123' },
+ { email: 'student1@example.com', password: 'student123' },
   { email: 'akshaymoghe5@gmail.com', password: 'Sweetakshay@13' },
   { email: 'archinuzhatkhan@gmail.com', password: 'archi@123' },
 { email: 'arrek58@gmail.com', password: 'mock2468' },
@@ -73,8 +73,7 @@ const PREDEFINED_STUDENTS = [
 { email: 'kumaridivya8092@gmail.com', password: 'Divya123' },
 { email: 'rishuthakur20043@gmail.com', password: 'Test123' },
 { email: 'aditimutha24@gmail.com', password: 'aditi123' },
- 
-];
+  ];
 
 async function seedStudents() {
   try {
